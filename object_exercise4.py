@@ -1,6 +1,6 @@
 # part of the object-oriented programming series
 # 4
-# Write a program, using object oriented programming, for an extension of the program from the previous question to
+# Write a program, using object-oriented programming, for an extension of the program from the previous question to
 # include the possibility to indicate also if they are legal drinking age.
 
 
@@ -36,4 +36,3 @@ class UserAgeAnalyzerExtended:
             if_legal = self.age >= self.legal_drinking_age
 
         return until_retirement, years_til_pre_ret, qualify_pre_ret, percentage, if_legal
-
