@@ -1,5 +1,5 @@
 import pytest
-import football_exercise
+import example1_football_exercise
 
 # Single test
 def test_calculate_points_tie():
