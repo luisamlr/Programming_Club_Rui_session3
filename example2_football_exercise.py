@@ -32,6 +32,12 @@ class FootballScorer:
             f"Team 2: Score: {self.score_team_2}, Points: {self.points_team_2}"
         )
 
+# we could add an example now
+# the example goes into name == main; because a lot of times you want to import and if you send the file to somebody
+# else, they only want the functions to use them
+# like mentioned before, this indicates an example, so it can be called by other people
+
+
 if __name__ == '__main__':
     # This will call the function input_names_scores() in the object initialization
     fs = FootballScorer()
