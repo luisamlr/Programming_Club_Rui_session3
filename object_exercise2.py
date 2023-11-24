@@ -10,6 +10,14 @@ class AgeAnalyzer:
         self.voting_age = 18
         self.retirement_age = 65
 
+# you can also indicate use type-hint the output type (this is usually common of more declarative languages)
+# Python users decided they were creating such complicated programs, they wanted to indicate the output first
+# but this is not at runtime (when you actually run the code), but only at programming time,
+# like while creating the code:
+#    def __init__(self, age: int = None) -> None:
+#        self.age = age
+
+
     def can_vote(self):
         return self.age >= self.voting_age
 
