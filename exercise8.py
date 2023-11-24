@@ -30,6 +30,7 @@ def linear_search(search_item, list_of_items):
             element += 1
 
 
+
 # Example usage:
 my_list = "examplestring"
 linear_search("p", my_list)
