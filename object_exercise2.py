@@ -1,3 +1,9 @@
+# part of the object-oriented programming series
+# 2
+# Write a program, using object oriented programming, that asks the users how old they are and returns an answer
+# indicating if the users are old enough to vote and how many years are there until they can retire (assume at age 65).
+
+
 class AgeAnalyzer:
     def __init__(self, age):
         self.age = age

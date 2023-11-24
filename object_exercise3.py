@@ -1,3 +1,11 @@
+# part of the object-oriented programming series
+# 3
+# Write a program, using object oriented programming, for an extension of the program from the previous question to
+# include the possibility to indicate also the amount of years to the age of pre-retirement (assumed at 60),
+# and if already illegible to display the percentage of full retirement (assumed at 60% at 60 and growing linearly
+# with each year).
+
+
 class UserAgeAnalyzerExtended:
     def __init__(self, age):
         self.age = age
